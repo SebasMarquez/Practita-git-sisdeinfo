@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 class="MainTittle" id="MainTittle">WEATHER APP</h1>
+
+    <p class="MainSubtittle">Find a location and inspect how the weather looks like.</p>
+
+    <section class="SearchBox">
+        <input type="text" class="SearchField" id="MainInput" placeholder="Ej: London">
+        <button type="button" class="SearchButton" id="SearchButton">Search</button>
+    </section>
+
+    <section class="ResultsBox">
+        <div class="ResultItem">
+            <p class="Tittle">City</p>
+            <p class="value">London</p>
+        </div>
+        <div class="ResultItem">
+            <p class="Tittle">Humedad</p>
+            <p class="value">88%</p>
+        </div>
+        <div class="ResultItem">
+            <p class="Tittle">Temperatura</p>
+            <p class="value">273 kelvin</p>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

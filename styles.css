@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a202c;
+    font-family: 'Inter', sans-serif;
+}
+
+.MainTittle{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 150%;
+    text-align:center;
+    color: floralwhite;
+    margin: 112px 0 8px 0;
+}
+
+.MainSubtittle{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: floralwhite;
+    margin-bottom: 32px;
+}
+
+.SearchBox{
+    background:floralwhite;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.SearchField{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    padding-left: 8px;
+}
+
+.SearchField::placeholder{
+    color:gray;
+}
+
+.SearchButton{
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    border-radius: 0px 6px 6px 0px;
+    background: gray;
+    color:white;
+    cursor: pointer;
+}
+
+.ResultsBox{
+    background: white;
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 16px;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.ResultItem{
+    margin-bottom: 8px;
+}
+
+.Tittle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: black;
+}
+
+.value{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: gray;
+}
+@media (min-width:1024px) {
+    .SearchBox{
+        width: 50%;
+    }
+}
+
+@media (min-width:768px) {
+    .SearchBox{
+        height: 48px;
+        width: 440px;
+    }
+}
